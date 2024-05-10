@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Nunito+Sans:ital,opsz,wght@0,6..12,500;0,6..12,800;1,6..12,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.fnav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 6px;
+    margin-top: 11px;
+    color: whitesmoke;
+    background-color: rgb(22, 22, 80);
+}
+.fnav  .left{
+   display: flex;
+   margin-top: 11px;
+   
+}
+.fnav  .right{
+    display: flex;
+    margin-top: 10px;
+    
+ }
+ 
+
+.left img{
+    width: 10%;
+ }
+ .left input{
+    margin-inline: 11px;
+    width: 420px;
+    height: 33px;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin-top: 16px;
+    border-radius: 2px;
+ }
+
+ .right p{
+    margin-inline: 22px;
+    margin-top: 10px;
+    font-size: 22px;
+ }
+ .right i{
+    margin-inline: 22px;
+
+ }
+ .right button{
+    margin-inline: 22px;
+    margin-top: 10px;
+    width: 80px;
+    height: 27px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(225, 16, 176);
+    color: beige;
+    
+ }
+
+ .sec-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    height: 50%;
+    background-color: rgb(31, 31, 97);
+  
+ }
+ .sec-nav p:hover{
+     color: rgb(191, 79, 116);
+     cursor: pointer;
+     font-weight: 600;
+ }
+ .sec-nav .s-left{
+    display: flex;
+    text-align: center;
+    gap: 35px;
+    margin-top: 10px;
+    width: 20%;
+    color: azure;
+ }
+ .sec-nav .s-right{
+    display: flex;
+    margin-top: 10px;
+    gap: 35px;
+    text-align: center;
+    width: 20%;
+    color: azure;
+
+
+ }
+ .main img{
+    width: 100%;
+ }
+ .container h1{
+    text-align: center;
+    padding: 22px;
+ }
+ .container h1:hover{
+   transform: translateY(0.5rem);
+   color: rgb(255, 0, 0);
+ }
+ .container .card{
+    display: flex ;
+    justify-content: center;
+    justify-content: space-around;
+
+ }
+ .card img{
+    width: 18%;
+    margin-block:15px ;
+    border-radius: 5px;
+ }
+ .card img:hover{
+    transform: translateY(0.5rem);
+    cursor: pointer;
+ }
+ .bainer img{
+      width: 100%;
+      height: 20%;
+ }
